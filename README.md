@@ -21,7 +21,7 @@ If you need further help productionizing AI workflows, want to bring this traini
 
 - [Session #1: Transfer learning and Reinforcement Learning](day3/session1)
 - [Session #2: GANs and Unsupervised Methods](day3/session2)
-- Session #3: Model Management and Ethics
+- [Session #3: Model Management and Ethics](day3/session3)
 
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).
