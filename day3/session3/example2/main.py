@@ -62,9 +62,9 @@ def main():
     # train classifier
     model = LogisticRegression().fit(train[['sex', 'education-num']], train['income'])
 
-    # calculate the mean difference for Male/Female
+    # calculate the Statistical Parity Difference for Male/Female
     stat_par = stat_parity(model, test, 'sex', 'income', 1, 0, 1, 0)
-    print('Mean Difference: ', stat_par)
+    print('Statistical Parity Difference: ', stat_par)
 
 if __name__ == "__main__":
     main()
